@@ -1,4 +1,10 @@
 name = input("enter your name: ")
 print("welcome" , name)
-task = input("enter a task: ")
-print("your task is" , task)
+tasks = []
+while True:
+    task = input("enter a task or inter exit: ")
+    if task == "exit":
+        break
+    else:
+        tasks.append(task)
+        continue
