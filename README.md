@@ -117,19 +117,15 @@ python main.py
 
 ## Example Output
 ```text
-do you want to open admin mode? yes/no: no 
-
-please enter your name : sara
-
-welcome sara
-
-enter a task or enter exit: check my test
-
-your task  ['check my test'] added
-'
+do you want to open admin mode? yes/no: no
+please enter your name : sana
+welcome sana
+enter a task or enter exit: creating a repository for new project
+Enter  priority (low/medium/high):medium
+your task and their priorities  ['creating a repository for new project , medium'] medium added
 enter a task or enter exit: exit
-
-check my test
+your tasks: 
+creating a repository for new project , medium
 ```
 
 ## Screen shot
@@ -148,7 +144,6 @@ check my test
 ![quiz game demo](pictures/Animation.gif)
 
 
-## Roadmap
 ## Roadmap
 - [x] add multiple tasks
 - [x] show all tasks
