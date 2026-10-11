@@ -1,7 +1,7 @@
 tasks = []
-def add_task(task):
-    tasks.append(task)
-    print("your task ", tasks, "added")
+def add_task(task, priority):
+    tasks.append(task + " , " +   priority)
+    print("your task ", tasks, priority, "added")
 
 
 def show_task():

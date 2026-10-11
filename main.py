@@ -26,10 +26,11 @@ while True:
     if task == "exit":
         break
     else:
+        priority = input("Enter  priority (low/medium/high):")
         add_task(task)
         continue
 
-
+show_task()
 
 with   open("tasks.txt", "a") as file:
     file.write(f"{name} - {tasks}\n")
